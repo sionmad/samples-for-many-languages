@@ -1,0 +1,11 @@
+{
+  "name": "typescript-sample",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "check": "tsc --project tsconfig.json --noEmit"
+  }
+}
